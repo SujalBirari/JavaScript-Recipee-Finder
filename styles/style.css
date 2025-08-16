@@ -1,0 +1,125 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+/* HEADER */
+header {
+  background: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* SEARCH BAR */
+.search-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-section select,
+.search-section input,
+.search-section button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.search-section button {
+  background: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.search-section button:hover {
+  background: #e5533f;
+}
+
+/* RESULTS - FLEXBOX */
+.results-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* RESULT CARD */
+.result-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  flex: 0 1 220px;
+  text-align: center;
+}
+
+.result-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.result-card {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.result-card button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+  margin: 2px;
+}
+
+/* FOOTER */
+footer {
+  background: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

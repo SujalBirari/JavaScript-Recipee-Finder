@@ -1,0 +1,133 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* MAIN CONTAINER */
+.recipe-container {
+  flex: 1;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* RECIPE HEADER */
+.recipe-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-header img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.recipe-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.recipe-title h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* YouTube Button */
+.youtube-btn {
+  background: #ff6347;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+.youtube-btn:hover {
+  background: #e5533f;
+}
+
+/* INGREDIENTS */
+.ingredients-section {
+  margin-bottom: 2rem;
+}
+
+.ingredients-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ff6347;
+}
+
+.ingredients-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredients-section li {
+  background: white;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* INSTRUCTIONS */
+.instructions-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ff6347;
+}
+
+.instructions-section p {
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* FOOTER */
+footer {
+  background: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

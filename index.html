@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <label for="searchType">Search By:</label>
+            <select id="searchType">
+                <option value="random">Random</option>
+                <option value="meal">Meal</option>
+                <option value="ingredient">Ingredient</option>
+                <option value="category">Category</option>
+                <option value="area">Area</option>
+                <option value="letter">Letter</option>
+            </select>
+
+            <input type="text" id="searchInput" placeholder="Enter your search term">
+            <button id="searchBtn">Search</button>
+        </section>
+
+        <section id="results" class="results-section">
+            <!-- Cards appear here dynamically -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by <a href="https://www.themealdb.com/" target="_blank">TheMealDB</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

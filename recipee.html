@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="styles/details.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+    </header>
+
+    <main class="recipe-container">
+        <div class="recipe-header">
+            <img id="recipe-img" src="" alt="Recipe Image">
+            <div class="recipe-title">
+                <h2 id="recipe-name">Recipe Name</h2>
+                <a id="youtube-link" href="#" target="_blank" class="youtube-btn">▶ Watch on YouTube</a>
+            </div>
+        </div>
+
+        <section class="ingredients-section">
+            <h3>Ingredients</h3>
+            <ul id="ingredients-list">
+                <!-- Ingredients will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section class="instructions-section">
+            <h3>Instructions</h3>
+            <p id="recipe-instructions">
+                <!-- Recipe instructions go here -->
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by <a href="https://www.themealdb.com/" target="_blank">TheMealDB</a></p>
+    </footer>
+
+    <script src="scripts/details.js"></script>
+</body>
+
+</html>
